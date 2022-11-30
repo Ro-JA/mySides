@@ -12,4 +12,9 @@ fun main() {
 //    use the contains() method
     println("Contains 4: ${numbers.contains(4)}")
     println("Contains 7: ${numbers.contains(7)}")
+
+    val color = listOf("green", "red", "blue")
+    println("Revesed list: ${color.reversed()}")
+    println("List ${color}")
+    println("Sorted list: ${color.sorted()}")
  }
